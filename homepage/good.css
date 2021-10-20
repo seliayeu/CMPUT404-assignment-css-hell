@@ -14,42 +14,58 @@ body {
   background-color: #454545;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20pt 0 20pt;
+}
+
 .link-container {
   font-family: "DM Serif Display";
   display: flex;
   flex-direction: row;
+  width: 100%;
+  height: 40pt;
   justify-content: center;
-  justify-content: space-between;
-  margin: 2% 20% 2% 20%;
+  align-items: center;
+  vertical-align: middle;
   font-size: 120%;
+  /*
+  gradient generated using https://cssgradient.io/
+  */
+  background: rgb(56,56,56);
+  background: linear-gradient(180deg, rgba(56,56,56,1) 0%, rgba(93,93,93,1) 88%);
+  box-shadow: 0px 0px 10px black;
 }
 
 .content {
   width: 68%;
   margin: auto;
-  box-shadow: 0px 0px 2pt black;
+  box-shadow: 0px 0px 4pt black;
   background-color: white;
   display: flex;
   flex-direction: column;
   margin-top: 50px;
   margin-bottom: 100px;
-  border-radius: 5px;
   overflow: hidden;
 }
 
 .main-content {
+  margin-top: 3%;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
+.subheader-text {
+  font-size: 90%;
+}
+
 .header {
   margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  text-align: center;
   width: 100%;
-  height: 6em;
+  height: 8em;
   vertical-align: middle;
   color:honeydew;
   letter-spacing: 1pt;
@@ -58,9 +74,16 @@ body {
   /*
   gradient generated using https://cssgradient.io/
   */
-  background: rgb(52,51,75);
-  background: linear-gradient(90deg, rgba(52,51,75,1) 0%, rgba(105,128,150,1) 31%, rgba(85,159,179,1) 62%, rgba(0,212,255,1) 100%);
-  box-shadow: 0px 0px 10px gray;
+  background: rgb(69,163,207);
+  background: linear-gradient(180deg, rgba(69,163,207,1) 5%, rgba(68,114,193,1) 49%, rgba(51,90,121,1) 95%);
+}
+
+.wood-separator {
+  background-image: url("./images/wood.jpeg");
+  height:30pt;
+  width: 100%;
+  background-repeat: repeat;
+  background-size: 100%;
 }
 
 .text-box-image {
@@ -89,7 +112,7 @@ span {
 
 .text-box {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   height: fit-content;
   text-align: justify;
   margin: 0 20pt 0 20pt;
@@ -97,19 +120,33 @@ span {
 
 #professional-history {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 
 }
 
+#bottom-links {
+  background-image: url("./images/wood.jpeg");
+  height:30pt;
+  width: 100%;
+  background-repeat: repeat;
+  background-size: 100%;
+}
 
 .side-bar{
   height: fit-content;
-  width: 23%;
+  width: 25%;
   margin-right: 20pt;
+}
+
+.sidebar-box {
   padding: 10pt;
-  margin-top: 10%;
-  background-color: grey;
-  border-radius: 5pt;
+  margin-top: 2%;
+  margin-bottom: 30%;
+  background-color: #e3e3e3;
+}
+
+.sidebar-header {
+  color: #3c59ba;
 }
 
 p {

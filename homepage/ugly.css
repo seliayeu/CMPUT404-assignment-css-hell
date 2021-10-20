@@ -8,67 +8,60 @@ body {
   padding: 0;
   width: 100vw;
   margin: 0;
-  color: white;
+  background-image: url("./images/hippo.png");
+  background-color: black;
+  background-size: 200px;
+  background-repeat: repeat;
 }
 
 a {
 
-  color:rebeccapurple
+  color: white;
+  text-decoration: none;
 }
 .link-container {
   display: flex;
   flex-direction: row;
+  background-color: red;
   justify-content: center;
   justify-content: space-between;
-  margin: 2% 20% 2% 20%;
-  font-size: 220%; 
+  margin: 2% 15% 2% 15%;
+  font-size: 150%; 
+  padding: 0 30pt 0 30pt;
 
 }
 
 .content {
-  background-image: url("./images/hippo.png");
-  background-size: 200px;
-  background-repeat: repeat;
-  width: 100%;
-  background-color: black;
+  margin: auto;
+  width: 70%;
   display: flex;
   flex-direction: column;
 }
 
 .main-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
 .header {
   margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   width: 100%;
+  text-align: center;
   height: 6em;
   vertical-align: middle;
-  color:honeydew;
+  color:cyan;
   letter-spacing: 1pt;
   position: relative;
+}
+
+.subheader-text {
+  color: gold;
 }
 
 .text-box-image {
   height: 200px;
   margin-top: 5%;
-}
-
-.header-image {
-  height: 5em;
-  margin-left: 20pt;
-  margin-top: 10pt;
-/*
-  CSS by Jezen Thomas used without significant change from https://stackoverflow.com/a/14859505
-  Licensed uner CC BY-SA 3.0
-*/
-  -webkit-animation: spin 4s infinite linear;
-  animation: spin 4s infinite linear;
 }
 
 span {
@@ -93,35 +86,26 @@ span {
 }
 
 #professional-history {
-  color: limegreen;
+  color: red;
   display: flex;
   flex-direction: column;
 
 }
 
-/*
-  CSS by Jezen Thomas used without significant change from https://stackoverflow.com/a/14859505
-  Licensed uner CC BY-SA 3.0
-*/
-@-webkit-keyframes spin {
-    0%  {-webkit-transform: rotate(0deg);}
-    100% {-webkit-transform: rotate(360deg);}   
-}
-@keyframes spin {
-    0%  {-webkit-transform: rotate(0deg);}
-    100% {-webkit-transform: rotate(360deg);}   
-}
-
 
 .side-bar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: fit-content;
-  width: 25%;
-  margin-right: 20pt;
+  width: 100%;
   padding: 10pt;
-  margin-top: 10%;
   background-color: hotpink;
   border-radius: 5pt;
-  padding-top: 80pt;
+}
+
+#what-i-can-do {
+  color: yellow;
 }
 
 p {

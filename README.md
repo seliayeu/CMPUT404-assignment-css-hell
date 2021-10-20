@@ -23,8 +23,6 @@ Code is licensed under the Apache 2.0 license.
 
 HTML and CSS licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
 
-External CSS by Jezen Thomas used under CC BY-SA 3.0 from https://stackoverflow.com/a/14859505. 
-
 Project Gutenberg Modifications
 ===============================
 
