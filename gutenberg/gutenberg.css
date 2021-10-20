@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+body {
+  margin-left: 200px;
+  margin-right: 200px;
+  background-image: url("oldpaper.jpeg");
+  background-repeat: repeat;
+  font-family: "EB Garamond";
+  color: #161717;
+}
+
+p {
+  font-size: 1.1em;
+  padding: 3px 10px 3px 10px;
+}
+
+h1 {
+  font-family: "Alice";
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: "Alice";
+  font-style: italic;
+}
+
+h3 {
+  font-family: "Alice";
+  color: #3d3d3d;
+}
+
+img {
+  border: 2px solid #161717;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.caption {
+  box-shadow: 0px 0px 10px grey;
+  font-style: italic;
+  background-color: lightgrey;
+  border-style: solid;
+  width: 100%;
+  border-width: 2px;
+  border-color: black;
+}

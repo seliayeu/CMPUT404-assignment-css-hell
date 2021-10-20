@@ -1,0 +1,118 @@
+/*
+Licensed under CC BY-SA 4.0 by Danila Seliayeu, 2021 https://creativecommons.org/licenses/by-sa/4.0/
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+body {
+  font-size: 12pt;
+  font-family: "Prata";
+  padding: 0;
+  width: 100vw;
+  margin: 0;
+  background-color: #454545;
+}
+
+.link-container {
+  font-family: "DM Serif Display";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 2% 20% 2% 20%;
+  font-size: 120%;
+}
+
+.content {
+  width: 68%;
+  margin: auto;
+  box-shadow: 0px 0px 2pt black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 6em;
+  vertical-align: middle;
+  color:honeydew;
+  letter-spacing: 1pt;
+  position: relative;
+  padding: 10pt 0 10pt 0;
+  /*
+  gradient generated using https://cssgradient.io/
+  */
+  background: rgb(52,51,75);
+  background: linear-gradient(90deg, rgba(52,51,75,1) 0%, rgba(105,128,150,1) 31%, rgba(85,159,179,1) 62%, rgba(0,212,255,1) 100%);
+  box-shadow: 0px 0px 10px gray;
+}
+
+.text-box-image {
+  height: 200px;
+  margin-top: 5%;
+}
+
+.header-image {
+  height: 5em;
+  margin-left: 20pt;
+  margin-top: 10pt;
+}
+
+span {
+  font-family: "DM Serif Display";
+  font-size: 110%;
+  text-decoration: underline;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 10pt 0 10pt;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  text-align: justify;
+  margin: 0 20pt 0 20pt;
+}
+
+#professional-history {
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+
+
+.side-bar{
+  height: fit-content;
+  width: 23%;
+  margin-right: 20pt;
+  padding: 10pt;
+  margin-top: 10%;
+  background-color: grey;
+  border-radius: 5pt;
+}
+
+p {
+  text-align: justify;
+}
+
