@@ -145,8 +145,23 @@ span {
   background-color: #e3e3e3;
 }
 
+.contact-box {
+  padding: 10pt;
+  margin-top: 2%;
+  margin-bottom: 30%;
+  box-shadow: 0 0 4px #2e2e2e;
+}
+
 .sidebar-header {
-  color: #3c59ba;
+  text-align: center;
+  margin: 0;
+  color: #2e2e2e;
+}
+
+.sidebar-subheader {
+  text-align: center;
+  margin-bottom: 0;
+  color: #507dbf;
 }
 
 p {
